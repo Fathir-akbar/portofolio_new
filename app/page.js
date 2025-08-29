@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Link from "next/link";
 
 export default function Home() {
   // state untuk Hello World text
@@ -36,7 +35,6 @@ export default function Home() {
 
       {/* Navbar */}
       <header className="fixed top-0 w-full z-50 bg-white/10 backdrop-blur-md flex justify-between items-center px-6 py-4">
-        <Link href="#hero" className="flex items-center">
         <Link href="#hero" className="flex items-center">
           <Image
             src="/images/FTR.png"
