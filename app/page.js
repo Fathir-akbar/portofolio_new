@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   // state untuk Hello World text
@@ -34,7 +35,7 @@ export default function Home() {
 
       {/* Navbar */}
       <header className="fixed top-0 w-full z-50 bg-white/10 backdrop-blur-md flex justify-between items-center px-6 py-4">
-        <a href="#hero" className="flex items-center">
+        <Link href="#hero" className="flex items-center">
           <Image
             src="/images/FTR.png"
             alt="Logo"
@@ -49,20 +50,20 @@ export default function Home() {
             height={32}
             className="hidden dark:block"
           />
-        </a>
+        </Link>
         <nav className="hidden md:flex gap-6">
-          <a href="#hero" className="hover:text-blue-500">
+          <Link href="#hero" className="hover:text-blue-500">
             Home
-          </a>
-          <a href="#about" className="hover:text-blue-500">
+          </Link>
+          <Link href="#about" className="hover:text-blue-500">
             About
-          </a>
+          </Link>
           <a href="#project" className="hover:text-blue-500">
             Project
-          </a>
-          <a href="#closing" className="hover:text-blue-500">
+          </Link>
+          <Link href="#closing" className="hover:text-blue-500">
             Contact
-          </a>
+          </Link>
         </nav>
       </header>
 
