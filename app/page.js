@@ -58,7 +58,7 @@ export default function Home() {
           <Link href="#about" className="hover:text-blue-500">
             About
           </Link>
-          <a href="#project" className="hover:text-blue-500">
+          <Link href="#project" className="hover:text-blue-500">
             Project
           </Link>
           <Link href="#closing" className="hover:text-blue-500">
